@@ -2,6 +2,10 @@
 int main() {
     int vot, age, c;
     vot = 18;
+    char name[5];
+    printf("Enter your name: ");
+    scanf("%s", &name);
+    printf("Hello %s, lets see if you can vote!\n", name);
     printf("Enter Your age: ");
     scanf("%d", &age);
     printf("Are you a citizen of this country, type 1 if yes, 0 if no: ");
