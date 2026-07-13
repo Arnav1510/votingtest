@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
+    char name[30];
+    printf("Enter your name: ");
+    scanf("%s", name);
+    printf("Hello %s, lets see if you can vote!\n", name);
     int age;
-    char citi[30], e[30] = "Yes";
+    char citi[30];
+    char e[30] = "Yes";
     printf("Enter Your age: ");
     scanf("%d", &age);
     printf("Are you a citizen of this country: ");
